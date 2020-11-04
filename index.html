@@ -6,7 +6,7 @@
     <title lang="en">WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
@@ -26,18 +26,18 @@
                 </ul>
             </nav>
             <address class="address">
-                <ul class="address-list">
+                <ul class="navigation-list">
                     <li class="address-item">
-                        <a class="header-mail-link" href="mailto:info@devstudio.com">
-                            <svg class="header-mail-svg mail">
+                        <a class="address-link" href="mailto:info@devstudio.com">
+                            <svg class="address-svg mail">
                                 <use href="./images/sprite.svg#icon-mail"></use>
                             </svg>
                             info@devstudio.com
                         </a>
                     </li>
                     <li class="address-item">
-                        <a class="header-mail-link" href="tel:+380961111111">
-                            <svg class="header-mail-svg smartphone">
+                        <a class="address-link" href="tel:+380961111111">
+                            <svg class="address-svg smartphone">
                                 <use href="./images/sprite.svg#icon-smartphone"></use>
                             </svg>
                             +38 096 111 11 11
@@ -51,7 +51,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+                <button type="button" class="modal-form-button" data-modal-open>Заказать услугу</button>
             </div>
         </section>    
         <section class="underhero">
@@ -98,7 +98,7 @@
         </section>
         <section class="activity">
             <div class="container">
-                <h2 class="activity-title">Чем мы занимаемся</h2>
+                <h2 class="subtitle">Чем мы занимаемся</h2>
                 <ul class="activity-list">
                     <li class="activity-list-item">
                         <img class="activity-list-img" src="./images/img01.jpg" alt="определение наилучшего расположения форм на экране телефона" width="370" height="294">
@@ -123,7 +123,7 @@
         </section>
         <section class="command">
             <div class="container">
-                <h2 class="command-title">Наша команда</h2>
+                <h2 class="subtitle">Наша команда</h2>
                 <ul class="command-list">
                     <li class="command-list-item">
                         <img class="command-list-img" src="./images/img11.jpg" alt="Игорь Демьяненко дизайнер продуктов" width="810" height="780">
@@ -278,7 +278,7 @@
         </section>
         <section class="clients">
             <div class="container">
-                <h2 class="clients-title">Постоянные клиенты</h2>
+                <h2 class="subtitle">Постоянные клиенты</h2>
                 <ul class="clients-list">
                     <li class="clients-list-item">
                         <a href="" class="clients-list-link">
@@ -339,42 +339,42 @@
                 </div>
                 <div class="footer-right">
                     <p class="footer-right-title">ПРИСОЕДИНЯЙТЕСЬ</p>
-                    <ul class="footer-list">
-                        <li class="footer-list-item">
-                            <a class="footer-list-link" href="">
-                                <svg class="footer-list-svg">
+                    <ul class="social-list-footer">
+                        <li class="social-list-item">
+                            <a class="social-list-link-footer" href="">
+                                <svg class="social-list-svg-footer">
                                     <use href="./images/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-list-item">
-                            <a class="footer-list-link" href="">
-                                <svg class="footer-list-svg">
+                        <li class="social-list-item">
+                            <a class="social-list-link-footer" href="">
+                                <svg class="social-list-svg-footer">
                                     <use href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-list-item">
-                            <a class="footer-list-link" href="">
-                                <svg class="footer-list-svg">
+                        <li class="social-list-item">
+                            <a class="social-list-link-footer" href="">
+                                <svg class="social-list-svg-footer">
                                     <use href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-list-item">
-                            <a class="footer-list-link" href="">
-                                <svg class="footer-list-svg">
+                        <li class="social-list-item">
+                            <a class="social-list-link-footer" href="">
+                                <svg class="social-list-svg-footer">
                                     <use href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <form class="footer-three-side">
+                <form class="footer-three">
                     <p class="footer-right-title">Подпишитесь на рассылку</p>
                     <div class="footer-three-div">
                         <input type="email" name="subscriber-email" class="footer-three-input" placeholder="E-mail">
-                        <button type="submit" class="footer-button">Подписаться
+                        <button type="submit" class="modal-form-button-footer">Подписаться
                             <svg class="footer-three-svg">
                                 <use href="./images/sprite.svg#icon-telegram"></use>
                             </svg>

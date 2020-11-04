@@ -1,0 +1,14 @@
+.logo {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    margin-right: 93px;
+    letter-spacing: 0.03em;
+    color: $second-logo-color;
+
+    &-blue {
+        color: $theme-color;
+    }
+}
